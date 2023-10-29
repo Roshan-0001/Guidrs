@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guidr</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <!-- <img class="logo" src="#" alt="Guidr"> -->
+        <h1>Guidr</h1>
+            <ul class="navbar">
+                <li class="navLink">Discover</li>
+                <li class="navLink">Places</li>
+                <li class="navLink">About</li>
+            </ul>
+        <button class="loginButton"><a href="#">Sign Up</a></button>
+    </header>
+
+    <!-- Main -->
+    <section>
+        <h1 class="heroText">Ask Guidr</h1>
+        <form action>
+            <div class="searchBox">
+                <input type="search" class="inputBox" placeholder="Enter the name of the city" class="search" name="search">
+                <button class="searchButton">Search</button>
+            </div>
+        </form>
+        <div class="maps">
+            <div>
+                <div id="mapid" class="mapBox"></div>
+                <h2>MAP</h2>
+                
+            </div>
+            <div>
+                <div id="mapid1" class="mapBox"></div>
+                <h2>Leisure Valley Park</h2>
+                <p class="comments"><button class="reviewbtn">Reviews</button></p>
+            </div>
+            <div>
+                <div id="mapid2" class="mapBox"></div>
+                <h2>Tau Devi Lal Park</h2>
+                <p class="comments"><button class="reviewbtn">Reviews</button></p>
+            </div>
+            <div>
+                <div id="mapid3" class="mapBox"></div>
+                <h2>DLF City Park</h2>
+                <p class="comments"><button class="reviewbtn">Reviews</button></p>
+            </div>
+            <!-- <div id="mapid" class="mapBox"></div>
+            <div id="mapid" class="mapBox"></div>
+            <div id="mapid" class="mapBox"></div> -->
+        </div>
+        
+       
+        <script src="index.js"></script>
+
+    </section>
+
+</body>
+</html>
